@@ -1,0 +1,53 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "ios": {
+        "simulator": false,
+        "buildConfiguration": "Release",
+        "distribution": "internal"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "gradleCommand": ":app:bundleRelease",
+        "env": {
+          "NODE_ENV": "production"
+        }
+      },
+      "ios": {
+        "buildConfiguration": "Release",
+        "distribution": "store",
+        "resourceClass": "m-medium",
+        "env": {
+          "NODE_ENV": "production"
+        }
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./google-play-service-account.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "adhderssocialclub@gmail.com"
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 16.18.0"
+  }
+}

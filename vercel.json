@@ -1,0 +1,10 @@
+{
+  "buildCommand": "echo 'Skipping web build for native app'",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

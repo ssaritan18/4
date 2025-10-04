@@ -1,0 +1,72 @@
+
+> adhders-app@1.0.0 build:web
+> npx expo export -p web --output-dir build && cp -r public/* build/ && cp -r build ../
+
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL REACT_APP_BACKEND_URL
+Starting Metro Bundler
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/reference/static-rendering/
+SyntaxError: node_modules/expo-router/entry.js: [BABEL]: Cannot find module 'react-native-worklets/plugin'
+Require stack:
+- /app/frontend/node_modules/react-native-reanimated/plugin/index.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/module-types.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/configuration.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/index.js
+- /app/frontend/node_modules/@babel/core/lib/index.js
+- /app/frontend/node_modules/@expo/metro-config/build/transform-worker/collect-dependencies.js
+- /app/frontend/node_modules/@expo/metro-config/build/serializer/reconcileTransformSerializerPlugin.js
+- /app/frontend/node_modules/@expo/metro-config/build/serializer/withExpoSerializers.js
+- /app/frontend/node_modules/@expo/metro-config/build/ExpoMetroConfig.js
+- /app/frontend/node_modules/expo/metro-config.js
+- /app/frontend/metro.config.js
+- /app/frontend/node_modules/cosmiconfig/node_modules/import-fresh/index.js
+- /app/frontend/node_modules/cosmiconfig/dist/loaders.js
+- /app/frontend/node_modules/cosmiconfig/dist/createExplorer.js
+- /app/frontend/node_modules/cosmiconfig/dist/index.js
+- /app/frontend/node_modules/metro-config/src/loadConfig.js
+- /app/frontend/node_modules/metro-config/src/index.js
+- /app/frontend/node_modules/@expo/metro/metro-config/index.js
+- /app/frontend/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /app/frontend/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/exportApp.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/exportAsync.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/index.js
+- /app/frontend/node_modules/@expo/cli/build/bin/cli
+- /app/frontend/node_modules/expo/bin/cli (While processing: /app/frontend/node_modules/react-native-reanimated/plugin/index.js)
+Error: [BABEL]: Cannot find module 'react-native-worklets/plugin'
+Require stack:
+- /app/frontend/node_modules/react-native-reanimated/plugin/index.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/module-types.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/configuration.js
+- /app/frontend/node_modules/@babel/core/lib/config/files/index.js
+- /app/frontend/node_modules/@babel/core/lib/index.js
+- /app/frontend/node_modules/@expo/metro-config/build/transform-worker/collect-dependencies.js
+- /app/frontend/node_modules/@expo/metro-config/build/serializer/reconcileTransformSerializerPlugin.js
+- /app/frontend/node_modules/@expo/metro-config/build/serializer/withExpoSerializers.js
+- /app/frontend/node_modules/@expo/metro-config/build/ExpoMetroConfig.js
+- /app/frontend/node_modules/expo/metro-config.js
+- /app/frontend/metro.config.js
+- /app/frontend/node_modules/cosmiconfig/node_modules/import-fresh/index.js
+- /app/frontend/node_modules/cosmiconfig/dist/loaders.js
+- /app/frontend/node_modules/cosmiconfig/dist/createExplorer.js
+- /app/frontend/node_modules/cosmiconfig/dist/index.js
+- /app/frontend/node_modules/metro-config/src/loadConfig.js
+- /app/frontend/node_modules/metro-config/src/index.js
+- /app/frontend/node_modules/@expo/metro/metro-config/index.js
+- /app/frontend/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js
+- /app/frontend/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/exportApp.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/exportAsync.js
+- /app/frontend/node_modules/@expo/cli/build/src/export/index.js
+- /app/frontend/node_modules/@expo/cli/build/bin/cli
+- /app/frontend/node_modules/expo/bin/cli (While processing: /app/frontend/node_modules/react-native-reanimated/plugin/index.js)
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/app/frontend/node_modules/react-native-reanimated/plugin/index.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)

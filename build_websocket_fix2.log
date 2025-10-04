@@ -1,0 +1,21 @@
+
+> adhders-app@1.0.0 build:web
+> npx expo export -p web --output-dir build && cp -r public/* build/ && cp -r build ../
+
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL REACT_APP_BACKEND_URL
+Starting Metro Bundler
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/reference/static-rendering/
+[Reanimated] Seems like you are using a Babel plugin `react-native-reanimated/plugin`. It was moved to `react-native-worklets` package. Please use `react-native-worklets/plugin` instead.
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 87.1% (1306/1399)
+λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.0% (1553/1610)
+λ Bundling failed 3553ms node_modules/expo-router/node/render.js (1696 modules)
+SyntaxError: Error: /app/frontend/src/context/RuntimeConfigContext.tsx: Unexpected token, expected "," (301:0)
+
+  299 | }
+  300 |
+> 301 | export function useRuntimeConfig() {
+      | ^
+  302 |   const ctx = useContext(Ctx);
+  303 |   if (!ctx) throw new Error("useRuntimeConfig must be used within RuntimeConfigProvider");
+  304 |   return ctx;

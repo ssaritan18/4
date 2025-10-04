@@ -1,0 +1,36 @@
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL REACT_APP_BACKEND_URL
+Starting project at /app/frontend
+Starting Metro Bundler
+Waiting on http://localhost:3000
+Logs for your project will appear below.
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[Reanimated] Seems like you are using a Babel plugin `react-native-reanimated/plugin`. It was moved to `react-native-worklets` package. Please use `react-native-worklets/plugin` instead.
+Web Bundling failed 360ms node_modules/expo-router/entry.js (1 module)
+λ Bundling failed 529ms node_modules/expo-router/node/render.js (2 modules)
+undefined
+Metro error: Unable to resolve module @expo/metro-runtime from /app/frontend/node_modules/expo-router/entry-classic.js: @expo/metro-runtime could not be found within the project or in these directories:
+  node_modules/expo-router/node_modules
+  node_modules
+[0m [90m 1 |[39m [90m// `@expo/metro-runtime` MUST be the first import to ensure Fast Refresh works[39m
+ [90m 2 |[39m [90m// on web.[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [32m'@expo/metro-runtime'[39m[33m;[39m
+ [90m   |[39m         [31m[1m^[22m[39m
+ [90m 4 |[39m
+ [90m 5 |[39m [36mimport[39m { [33mApp[39m } [36mfrom[39m [32m'expo-router/build/qualified-entry'[39m[33m;[39m
+ [90m 6 |[39m [36mimport[39m { renderRootComponent } [36mfrom[39m [32m'expo-router/build/renderRootComponent'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules/expo-router/entry-classic.js
+ | import "@expo/metro-runtime"
+
+ node_modules/expo-router/entry.js
+ | import "expo-router/entry-classic"
+
+ 
+ | import "./node_modules/expo-router/entry"
+
+undefined
+Call Stack
+  <unknown> (node_modules/expo-router/entry-classic.js:0)

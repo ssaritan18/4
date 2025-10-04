@@ -1,0 +1,27 @@
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL REACT_APP_BACKEND_URL
+Starting project at /app/frontend
+Starting Metro Bundler
+Waiting on http://localhost:3000
+Logs for your project will appear below.
+/app/frontend/node_modules/@expo/cli/build/src/utils/errors.js:130
+    throw error;
+    ^
+
+Error: ENOSPC: System limit for number of file watchers reached, watch '/app/frontend/node_modules/lru-cache/dist/commonjs'
+    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)
+    at Object.watch (node:fs:2491:36)
+    at FallbackWatcher._watchdir (/app/frontend/node_modules/metro-file-map/src/watchers/FallbackWatcher.js:88:24)
+    at /app/frontend/node_modules/metro-file-map/src/watchers/FallbackWatcher.js:23:16
+    at Walker.<anonymous> (/app/frontend/node_modules/metro-file-map/src/watchers/FallbackWatcher.js:322:31)
+    at Walker.emit (node:events:524:28)
+    at /app/frontend/node_modules/walker/lib/walker.js:69:16
+    at FSReqCallback.oncomplete (node:fs:188:23) {
+  errno: -28,
+  syscall: 'watch',
+  code: 'ENOSPC',
+  path: '/app/frontend/node_modules/lru-cache/dist/commonjs',
+  filename: '/app/frontend/node_modules/lru-cache/dist/commonjs'
+}
+
+Node.js v20.19.5

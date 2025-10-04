@@ -1,0 +1,691 @@
+
+> adhders-app@1.0.0 build:web
+> npx expo export -p web --output-dir build && cp -r public/* build/ && cp -r build ../
+
+env: load .env
+env: export EXPO_PUBLIC_BACKEND_URL REACT_APP_BACKEND_URL
+Starting Metro Bundler
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/reference/static-rendering/
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.3% (1323/1370)
+λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 93.8% (1425/1471)
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1422/1423)
+λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 96.9% (1458/1481)
+λ Bundled 9627ms node_modules/expo-router/node/render.js (1522 modules)
+Web Bundled 10236ms node_modules/expo-router/entry.js (1423 modules)
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (1422/1423)
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🏠 HomeScreen rendering...
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🏠 ProfileScreen rendering with ADHD-friendly enhancements...
+λ  LOG  📱 Platform: web
+λ  LOG  📝 React Native Text import available: true
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🏠 ProfileScreen rendering with ADHD-friendly enhancements...
+λ  LOG  📱 Platform: web
+λ  LOG  📝 React Native Text import available: true
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔍 CHAT DETAIL RENDER: {
+  chatId: '[id]',
+  chatFound: false,
+  chatTitle: undefined,
+  messagesCount: 0,
+  allMessages: [],
+  messagesByChat: {}
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔍 CHAT DETAIL RENDER: {
+  chatId: '[id]',
+  chatFound: false,
+  chatTitle: undefined,
+  messagesCount: 0,
+  allMessages: [],
+  messagesByChat: {}
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔍 CHAT DETAIL RENDER: {
+  chatId: undefined,
+  chatFound: false,
+  chatTitle: undefined,
+  messagesCount: 0,
+  allMessages: [],
+  messagesByChat: {}
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔍 CHAT DETAIL RENDER: {
+  chatId: undefined,
+  chatFound: false,
+  chatTitle: undefined,
+  messagesCount: 0,
+  allMessages: [],
+  messagesByChat: {}
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+λ  LOG  📸 ProfilePictureUpload received currentImageUrl: NO_IMAGE_DATA
+λ  LOG  🔥 CHAT PROVIDER STARTING!
+λ  LOG  🔥 CHAT PROVIDER STATE: {
+  hasToken: false,
+  isAuthenticated: false,
+  mode: 'sync',
+  hasWebSocket: false
+}
+λ  LOG  🔍 CHAT CONTEXT RENDER: {
+  mode: 'sync',
+  isAuthenticated: false,
+  syncEnabled: true,
+  totalChats: 2,
+  backendChatsCount: 0,
+  localChatsCount: 2,
+  usingBackend: true
+}
+
+› web bundles (1):
+_expo/static/js/web/entry-32ff732b0c4ba86135560d915bc7a817.js (3.26 MB)
+
+› Static routes (37):
+/help (47.2 kB)
+/ (index) (42.7 kB)
+/login (45.6 kB)
+/signup (45.2 kB)
+/payment (48.8 kB)
+/welcome (44.1 kB)
+/friends (52.3 kB)
+/profile (64.7 kB)
+/_sitemap (68.4 kB)
+/community (52.9 kB)
+/chat/[id] (50.2 kB)
+/onboarding (47.9 kB)
+/+not-found (42.8 kB)
+/forgot-pin (42.9 kB)
+/chat (54.5 kB)
+/focus-timer (45.4 kB)
+/subscription (52.7 kB)
+/(auth)/login (45.6 kB)
+/(tabs) (61.2 kB)
+/chat/temp_id (51.7 kB)
+/profile/edit (48.4 kB)
+/(auth)/signup (45.2 kB)
+/admin/reports (45 kB)
+/delete-account (47.3 kB)
+/privacy-policy (56.4 kB)
+/reset-password (43.4 kB)
+/(auth)/welcome (44.1 kB)
+/(tabs)/friends (52.3 kB)
+/(tabs)/profile (64.7 kB)
+/(tabs)/community (52.9 kB)
+/(tabs)/chat/[id] (50.2 kB)
+/profile/settings (55.4 kB)
+/(auth)/forgot-pin (42.9 kB)
+/(tabs)/chat (54.5 kB)
+/(tabs)/chat/temp_id (51.7 kB)
+/(auth)/reset-password (43.4 kB)
+/test-subscription-modal (42.9 kB)
+
+Exported: build

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ADHDers Social Club</title>
+    <meta name="description" content="Privacy Policy for ADHDers Social Club - How we collect, use, and protect your personal data.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f172a);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #8B5CF6, #A855F7, #EC4899, #F97316);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .update-card {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .update-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .update-date {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+        
+        .section {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .subsection-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 15px 0 8px 0;
+            color: #ffffff;
+        }
+        
+        .section-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+        
+        .bullet-point {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 6px;
+            margin-left: 20px;
+            position: relative;
+            opacity: 0.9;
+        }
+        
+        .bullet-point:before {
+            content: "•";
+            color: #8B5CF6;
+            font-weight: bold;
+            position: absolute;
+            left: -15px;
+        }
+        
+        .contact-info {
+            font-size: 1rem;
+            color: #10B981;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .delete-account-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .delete-account-link {
+            background: linear-gradient(135deg, #EF4444, #DC2626);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+        }
+        
+        .delete-account-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+        }
+        
+        .final-note {
+            font-style: italic;
+            text-align: center;
+            margin-top: 15px;
+            opacity: 0.8;
+        }
+        
+        .back-button {
+            background: linear-gradient(135deg, #6B7280, #4B5563);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(107, 114, 128, 0.3);
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(107, 114, 128, 0.4);
+        }
+        
+        .toc {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(168, 85, 247, 0.1));
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .toc h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .toc li {
+            margin-bottom: 8px;
+        }
+        
+        .toc a {
+            color: #8B5CF6;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .toc a:hover {
+            color: #A855F7;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+            border-radius: 16px;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-link {
+            color: #10B981;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-link:hover {
+            color: #059669;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Back Button -->
+        <a href="/" class="back-button">← Back to App</a>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>📋 Privacy Policy</h1>
+            <p>ADHDers Social Club - Your Privacy Matters</p>
+        </div>
+
+        <!-- Last Updated -->
+        <div class="update-card">
+            <div class="update-title">📅 Last Updated</div>
+            <div class="update-date">January 6, 2025</div>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h3>📖 Table of Contents</h3>
+            <ul>
+                <li><a href="#introduction">1. Introduction</a></li>
+                <li><a href="#data-collect">2. Data We Collect</a></li>
+                <li><a href="#data-use">3. How We Use Your Data</a></li>
+                <li><a href="#data-sharing">4. Data Sharing</a></li>
+                <li><a href="#data-security">5. Data Security</a></li>
+                <li><a href="#your-rights">6. Your Rights</a></li>
+                <li><a href="#account-deletion">7. Account Deletion</a></li>
+                <li><a href="#data-retention">8. Data Retention</a></li>
+                <li><a href="#children-privacy">9. Children's Privacy</a></li>
+                <li><a href="#contact-us">10. Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Introduction -->
+        <div class="section" id="introduction">
+            <h2 class="section-title">🏠 Introduction</h2>
+            <p class="section-text">
+                This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+            </p>
+            <p class="section-text">
+                We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+            </p>
+            <p class="section-text">
+                ADHDers Social Club is a supportive community platform designed specifically for individuals with ADHD. We understand the importance of privacy and are committed to maintaining the highest standards of data protection.
+            </p>
+        </div>
+
+        <!-- Interpretation and Definitions -->
+        <div class="section" id="definitions">
+            <h2 class="section-title">📖 Interpretation and Definitions</h2>
+            
+            <h3 class="subsection-title">Interpretation</h3>
+            <p class="section-text">
+                The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+            </p>
+            
+            <h3 class="subsection-title">Definitions</h3>
+            <p class="section-text">For the purposes of this Privacy Policy:</p>
+            <div class="bullet-point"><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</div>
+            <div class="bullet-point"><strong>Application</strong> refers to ADHDers Social Club, the software program provided by the Company.</div>
+            <div class="bullet-point"><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ADHDers Social Club.</div>
+            <div class="bullet-point"><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</div>
+            <div class="bullet-point"><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</div>
+            <div class="bullet-point"><strong>Service</strong> refers to the Application.</div>
+            <div class="bullet-point"><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself.</div>
+            <div class="bullet-point"><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</div>
+        </div>
+
+        <!-- Data We Collect -->
+        <div class="section" id="data-collect">
+            <h2 class="section-title">📊 Collecting and Using Your Personal Data</h2>
+            
+            <h3 class="subsection-title">Types of Data Collected</h3>
+            
+            <h4 style="font-size: 1rem; font-weight: 600; margin: 12px 0 8px 0; color: #ffffff;">Personal Data</h4>
+            <p class="section-text">
+                While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
+            </p>
+            <div class="bullet-point">Email address</div>
+            <div class="bullet-point">First name and last name</div>
+            <div class="bullet-point">Profile picture (optional)</div>
+            <div class="bullet-point">ADHD assessment results (if completed)</div>
+            <div class="bullet-point">Usage Data</div>
+            
+            <h4 style="font-size: 1rem; font-weight: 600; margin: 12px 0 8px 0; color: #ffffff;">Usage Data</h4>
+            <p class="section-text">
+                Usage Data is collected automatically when using the Service.
+            </p>
+            <p class="section-text">
+                Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+            </p>
+            <p class="section-text">
+                When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
+            </p>
+        </div>
+
+        <!-- How We Use Your Data -->
+        <div class="section" id="data-use">
+            <h2 class="section-title">🎯 How We Use Your Data</h2>
+            <div class="bullet-point">To provide and maintain our service</div>
+            <div class="bullet-point">To personalize your experience and content</div>
+            <div class="bullet-point">To facilitate social interactions within the app</div>
+            <div class="bullet-point">To track your progress and achievements</div>
+            <div class="bullet-point">To provide ADHD-specific features and recommendations</div>
+            <div class="bullet-point">To send you notifications and updates</div>
+            <div class="bullet-point">To provide customer support</div>
+            <div class="bullet-point">To improve our services and develop new features</div>
+            <div class="bullet-point">To ensure security and prevent fraud</div>
+            <div class="bullet-point">To comply with legal obligations</div>
+        </div>
+
+        <!-- Data Sharing -->
+        <div class="section" id="data-sharing">
+            <h2 class="section-title">🤝 Data Sharing</h2>
+            <p class="section-text">
+                We do not sell, trade, or rent your personal information to third parties. We may share your data only in the following circumstances:
+            </p>
+            <div class="bullet-point">With your explicit consent</div>
+            <div class="bullet-point">To comply with legal obligations</div>
+            <div class="bullet-point">To protect our rights and safety</div>
+            <div class="bullet-point">With service providers who assist us (under strict confidentiality agreements)</div>
+            <div class="bullet-point">In case of business transfer or merger (with notice to you)</div>
+            <div class="bullet-point">With healthcare providers (only with your consent and for ADHD support)</div>
+        </div>
+
+        <!-- Data Security -->
+        <div class="section" id="data-security">
+            <h2 class="section-title">🔒 Data Security</h2>
+            <p class="section-text">
+                We implement appropriate technical and organizational security measures to protect your personal data:
+            </p>
+            <div class="bullet-point">Encryption of data in transit and at rest</div>
+            <div class="bullet-point">Regular security assessments and updates</div>
+            <div class="bullet-point">Access controls and authentication systems</div>
+            <div class="bullet-point">Secure data centers and backup systems</div>
+            <div class="bullet-point">Employee training on data protection</div>
+            <div class="bullet-point">Multi-factor authentication for admin access</div>
+            <div class="bullet-point">Regular penetration testing and vulnerability assessments</div>
+        </div>
+
+        <!-- Your Rights -->
+        <div class="section" id="your-rights">
+            <h2 class="section-title">⚖️ Your Rights</h2>
+            <p class="section-text">
+                Under data protection laws (including GDPR and CCPA), you have the following rights:
+            </p>
+            <div class="bullet-point">Right to access your personal data</div>
+            <div class="bullet-point">Right to rectify inaccurate data</div>
+            <div class="bullet-point">Right to erase your data ("right to be forgotten")</div>
+            <div class="bullet-point">Right to restrict processing</div>
+            <div class="bullet-point">Right to data portability</div>
+            <div class="bullet-point">Right to object to processing</div>
+            <div class="bullet-point">Right to withdraw consent</div>
+            <div class="bullet-point">Right to lodge a complaint with supervisory authorities</div>
+            
+            <p class="section-text" style="margin-top: 20px;">
+                To exercise any of these rights, please contact us at adhderssocialclub@gmail.com. 
+                We will respond to your request within 30 days.
+            </p>
+        </div>
+
+        <!-- Account Deletion -->
+        <div class="section" id="account-deletion">
+            <h2 class="section-title">🗑️ Account Deletion</h2>
+            <p class="section-text">
+                You can request deletion of your account and all associated data at any time:
+            </p>
+            <div class="bullet-point">Visit our account deletion page</div>
+            <div class="bullet-point">Contact us at adhderssocialclub@gmail.com</div>
+            <div class="bullet-point">We will process your request within 30 days</div>
+            <div class="bullet-point">All your data will be permanently deleted</div>
+            <div class="bullet-point">You will receive confirmation once completed</div>
+            <div class="bullet-point">Deletion includes all posts, messages, achievements, and personal data</div>
+            
+            <div class="delete-account-button">
+                <a href="/delete-account.html" class="delete-account-link">
+                    🗑️ Request Account Deletion
+                </a>
+            </div>
+        </div>
+
+        <!-- Data Retention -->
+        <div class="section" id="data-retention">
+            <h2 class="section-title">⏰ Data Retention</h2>
+            <p class="section-text">
+                We retain your personal data only as long as necessary:
+            </p>
+            <div class="bullet-point">Account data: Until you delete your account</div>
+            <div class="bullet-point">Content data: Until you delete specific content or your account</div>
+            <div class="bullet-point">Usage data: Up to 2 years for analytics purposes</div>
+            <div class="bullet-point">Log files: Up to 1 year for security and troubleshooting</div>
+            <div class="bullet-point">ADHD assessment data: Until account deletion or explicit removal request</div>
+            <div class="bullet-point">Legal compliance: As required by applicable law</div>
+        </div>
+
+        <!-- Children's Privacy -->
+        <div class="section" id="children-privacy">
+            <h2 class="section-title">👶 Children's Privacy</h2>
+            <p class="section-text">
+                Our service is not intended for children under the age of 13. We do not knowingly collect 
+                personal information from children under 13. If you are a parent or guardian and you are 
+                aware that your child has provided us with personal information, please contact us so we 
+                can take appropriate action.
+            </p>
+            <p class="section-text">
+                For users between 13-18, we recommend parental guidance and involvement in using our platform, 
+                especially regarding ADHD-related features and community interactions.
+            </p>
+        </div>
+
+        <!-- International Transfers -->
+        <div class="section">
+            <h2 class="section-title">🌍 International Transfers</h2>
+            <p class="section-text">
+                Your information may be transferred to and maintained on servers located outside of your 
+                jurisdiction. We ensure appropriate safeguards are in place to protect your data during 
+                international transfers, including:
+            </p>
+            <div class="bullet-point">Adequacy decisions by data protection authorities</div>
+            <div class="bullet-point">Standard contractual clauses</div>
+            <div class="bullet-point">Certification schemes and codes of conduct</div>
+            <div class="bullet-point">Privacy Shield frameworks (where applicable)</div>
+        </div>
+
+        <!-- Policy Changes -->
+        <div class="section">
+            <h2 class="section-title">📝 Changes to This Policy</h2>
+            <p class="section-text">
+                We may update this privacy policy from time to time. We will notify you of any changes by:
+            </p>
+            <div class="bullet-point">Posting the new privacy policy on this page</div>
+            <div class="bullet-point">Sending you an email notification</div>
+            <div class="bullet-point">Displaying a prominent notice in the app</div>
+            <div class="bullet-point">Changes are effective immediately upon posting</div>
+            
+            <p class="section-text" style="margin-top: 15px;">
+                We encourage you to review this privacy policy periodically to stay informed about how we 
+                protect your information.
+            </p>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="section" id="contact-us">
+            <h2 class="section-title">📧 Contact Us</h2>
+            <p class="section-text">
+                If you have any questions about this privacy policy or our data practices, please contact us:
+            </p>
+            <div class="contact-info">📧 Email: adhderssocialclub@gmail.com</div>
+            <div class="contact-info">🌐 Website: ADHDers Social Club</div>
+            <div class="contact-info">⏰ Response Time: Within 48 hours</div>
+            <div class="contact-info">🏢 Data Protection Officer: Available upon request</div>
+            
+            <p class="final-note">
+                We are committed to protecting your privacy and will respond to all inquiries promptly and professionally.
+                Your trust is important to us, and we're here to support your ADHD journey safely and securely.
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <h3>ADHDers Social Club</h3>
+            <p>Supporting the ADHD community with understanding, connection, and privacy protection</p>
+            
+            <div class="footer-links">
+                <a href="/" class="footer-link">🏠 Home</a>
+                <a href="/delete-account.html" class="footer-link">🗑️ Delete Account</a>
+                <a href="mailto:adhderssocialclub@gmail.com" class="footer-link">📧 Contact</a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.7;">
+                © 2025 ADHDers Social Club. All rights reserved.<br>
+                This privacy policy complies with GDPR, CCPA, and other applicable data protection laws.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Basic analytics and functionality
+        console.log('ADHDers Social Club - Privacy Policy Loaded');
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Mobile optimization
+        if (window.innerWidth <= 768) {
+            document.body.classList.add('mobile-view');
+        }
+        
+        // Last updated date auto-update (if needed in the future)
+        const updateElements = document.querySelectorAll('.update-date');
+        // This could be dynamically updated based on actual policy changes
+    </script>
+</body>
+</html>
