@@ -23,7 +23,8 @@
         "buildType": "app-bundle",
         "gradleCommand": ":app:bundleRelease",
         "env": {
-          "NODE_ENV": "production"
+          "NODE_ENV": "production",
+          "NODE_VERSION": "20.19.4"
         }
       },
       "ios": {
@@ -31,7 +32,8 @@
         "distribution": "store",
         "resourceClass": "m-medium",
         "env": {
-          "NODE_ENV": "production"
+          "NODE_ENV": "production",
+          "NODE_VERSION": "20.19.4"
         }
       }
     }
